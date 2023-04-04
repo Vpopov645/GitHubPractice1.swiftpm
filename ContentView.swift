@@ -11,6 +11,10 @@ struct ContentView: View {
         Button("Multiply") {
             answer = number1 * number2
         }
+       Button("Multiply", action: <#T##() -> Void#>)
+        Button("Subtract", action: <#T##() -> Void#>)
+        Button("Divide", action: <#T##() -> Void#>)
+        Button("Add", action: <#T##() -> Void#>)
         Text("\(answer)")
     }
 }
