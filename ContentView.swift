@@ -12,9 +12,19 @@ struct ContentView: View {
             answer = number1 * number2
         }
        Button("Multiply", action: <#T##() -> Void#>)
+            .foregroundColor(.blue)
+            .background(.red)
         Button("Subtract", action: <#T##() -> Void#>)
+            .foregroundColor(.blue)
+            .background(.red)
         Button("Divide", action: <#T##() -> Void#>)
+            .foregroundColor(.blue)
+            .background(.red)
         Button("Add", action: <#T##() -> Void#>)
+            .foregroundColor(.blue)
+            .background(.red)
         Text("\(answer)")
+            .foregroundColor(.orange)
+            .background(.green)
     }
 }
